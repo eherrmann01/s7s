@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "ubuntu", sans-serif;
+}
+
+.nav {
+    grid-column: 3/4;
+    padding-right: 20px;
+    text-align: right;
+    padding-top: 20px;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: black 1px 1px;
+}
+
+a:hover {
+    color: red;
+}
+
+.nav a #highlight {
+    color: red;
+    text-shadow: none;
+}
+
+.container {
+    background: url(../img/southla/southlads21.jpg) no-repeat center bottom/cover;
+    opacity: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.title h1 {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    color: #fff;
+    text-align: left;
+    text-shadow: black 2px 2px;
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: 6.5rem;
+    font-weight: 100;
+}
+
+p {
+    text-shadow: black 1px 1px;
+    font-size: 1.4rem;
+    color: #fff;
+    grid-row: 2 / 3;
+    grid-column: 2 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 180px;
+}
+
+#banner h1 {
+    background-color: rgb(78, 78, 78);
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: #000 2px 2px;
+}
+
+
+/* Gallery */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 30vw);
+    gap: 20px;
+    padding-top: 60px;
+    background-color: rgb(78, 78, 78);
+    padding: 20px 20px;
+    align-items: center;
+}
+
+.philosophy h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 6rem;
+}
+
+.philosophy p {
+    color: #fff;
+    text-align: center;
+    text-shadow: none;
+    padding-top: 50px;
+}
+
+.gallery #img1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-row: auto;
+    grid-column: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery #img2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-row: auto;
+    grid-column: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery #img3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-row: auto;
+    grid-column: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery #img4 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-row: auto;
+    grid-column: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery #img5 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-row: auto;
+    grid-column: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery #img6 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-row: auto;
+    grid-column: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery #img7 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-row: auto;
+    grid-column: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery #img8 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-row: auto;
+    grid-column: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery #img9 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-row: auto;
+    grid-column: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery #img10 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-row: auto;
+    grid-column: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery #img11 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-row: auto;
+    grid-column: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery #img12 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-row: auto;
+    grid-column: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery #img13 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-row: auto;
+    grid-column: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery #img14 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-row: auto;
+    grid-column: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery #img15 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-row: auto;
+    grid-column: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery h2 {
+    font-size: 6rem;
+    padding-left: 110px;
+    color: #fff;
+    text-shadow: #000 2px 1px;
+}
+
+.gallery p {
+    grid-row: auto;
+    grid-column: auto;
+    border-radius: 5px;
+    text-align: left;
+    background-color: rgb(78, 78, 78);
+    font-size: 1.2rem;
+    padding-top: 500;
+}
+
+footer {
+    background-color: rgb(78, 78, 78);
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.2rem;
+    padding-bottom: 12px;
+    color: #fff;
+    text-shadow: none;
+}
+
+@media (max-width: 1100px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .title h1 {
+        display: none;
+    }
+    #banner h1 {
+        display: none;
+    }
+    .philosophy {
+        display: none;
+    }
+}
