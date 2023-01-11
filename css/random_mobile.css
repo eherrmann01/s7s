@@ -1,4 +1,18 @@
 *
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "ubuntu", sans-serif;
+}
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --red: #ff0000;
+    --gray: #4e4e4e;
+}
+
 body {
     background-color: #000;
 }
@@ -18,15 +32,15 @@ ul {
 a {
     padding-top: 10px;
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
 }
 
 a:hover {
-    color: red;
+    color: var(--red);
 }
 
 .nav a #highlight {
-    color: red;
+    color: var(--red);
 }
 
 .container {
@@ -35,9 +49,9 @@ a:hover {
 }
 
 .title h1 {
-    color: #fff;
+    color: var(--white);
     text-align: center;
-    text-shadow: black 2px 2px;
+    text-shadow: var(--black) 2px 2px;
     /* padding-top: 15px; */
     padding-right: 10px;
     padding-bottom: 0px;
@@ -46,26 +60,29 @@ a:hover {
 }
 
 p {
-    /* display: flex;
-    flex-direction: column; */
-    text-shadow: black 1px 1px;
+    text-shadow: var(--black) 1px 1px;
     font-size: 1.0rem;
-    color: #fff;
-    margin-top: 650px;
+    color: var(--white);
+    margin-top: 50px;
     padding-right: 10px;
     padding-left: 10px;
     text-align: center;
 }
 
 #banner h1 {
-    background-color: rgb(78, 78, 78);
+    background-color: var(--gray);
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
     font-size: 3rem;
-    color: #fff;
-    text-shadow: #000 2px 2px;
+    color: var(--white);
+    text-shadow: var(--black) 2px 2px;
+}
+
+.philosophy {
+    color: var(--white);
+    text-shadow: var(--black) 2px 2px;
 }
 
 .gallery {
@@ -74,7 +91,7 @@ p {
     grid-template-rows: repeat(4, 27vw);
     gap: 20px;
     padding-top: 20px;
-    background-color: rgb(78, 78, 78);
+    background-color: var(--gray);
     padding: 20px 20px;
     align-items: center;
 }
@@ -193,5 +210,5 @@ p {
     grid-column: auto;
     border-radius: 5px;
     text-align: left;
-    background-color: rgb(78, 78, 78);
+    background-color: var(--gray);
 }

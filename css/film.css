@@ -1,8 +1,15 @@
 * {
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "ubuntu", sans-serif;
+}
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --red: #ff0000;
+    --gray: #4e4e4e;
 }
 
 .nav {
@@ -27,11 +34,11 @@ a {
 }
 
 a:hover {
-    color: red;
+    color: var(--red);
 }
 
 .nav a #highlight {
-    color: red;
+    color: var(--red);
 }
 
 .container {
@@ -40,6 +47,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    background-color: var(--black);
 }
 
 .title {
@@ -48,9 +56,9 @@ a:hover {
 }
 
 .title h1 {
-    color: #fff;
+    color: var(--black);
     text-align: center;
-    text-shadow: black 2px 2px;
+    text-shadow: var(--black) 2px 2px;
     padding-top: 25px;
     padding-left: 80px;
     font-size: 8.5rem;
@@ -58,9 +66,9 @@ a:hover {
 }
 
 .container p {
-    text-shadow: black 1px 1px;
+    text-shadow: var(--black) 1px 1px;
     font-size: 1.2rem;
-    color: #fff;
+    color: var(--white);
     grid-row: 2/3;
     grid-column: 1/2;
     text-indent: 6%;
@@ -68,13 +76,13 @@ a:hover {
 }
 
 #banner h1 {
-    background-color: rgb(78, 78, 78);
+    background-color: var(--gray);
     text-align: left;
     padding-top: 10px;
     padding-left: 50px;
     font-size: 6rem;
-    color: #fff;
-    text-shadow: #000 2px 2px;
+    color: var(--white);
+    text-shadow: var(--black) 2px 2px;
 }
 
 
@@ -87,19 +95,19 @@ a:hover {
     grid-auto-flow: dense;
     gap: 20px;
     padding-top: 20px;
-    background-color: rgb(78, 78, 78);
+    background-color: var(--gray);
     padding: 20px 20px;
     align-items: center;
 }
 
 .history h2 {
-    color: #fff;
+    color: var(--white);
     text-align: center;
     font-size: 2rem;
 }
 
 .history p {
-    color: #fff;
+    color: var(--white);
     text-align: center;
     text-shadow: none;
     padding-top: 50px;
@@ -257,7 +265,7 @@ footer p {
     text-align: center;
     font-size: 1.2rem;
     padding-bottom: 12px;
-    color: #fff;
+    color: var(--white);
 }
 
 @media (max-width: 412px) {

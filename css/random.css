@@ -5,6 +5,13 @@
     font-family: "ubuntu", sans-serif;
 }
 
+:root {
+    --black: #000;
+    --white: #fff;
+    --red: #ff0000;
+    --gray: #4e4e4e;
+}
+
 .nav {
     grid-column: 3/4;
     padding-right: 20px;
@@ -23,15 +30,15 @@ ul {
 a {
     padding-top: 10px;
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
 }
 
 a:hover {
-    color: red;
+    color: var(--red);
 }
 
 .nav a #highlight {
-    color: red;
+    color: var(--red);
 }
 
 .container {
@@ -45,9 +52,9 @@ a:hover {
 .title h1 {
     grid-column: 1/2;
     grid-row: 1/2;
-    color: #fff;
+    color: var(--white);
     text-align: left;
-    text-shadow: black 2px 2px;
+    text-shadow: var(--black) 2px 2px;
     padding-bottom: 600px;
     padding-left: 100px;
     font-size: 6.5rem;
@@ -55,9 +62,9 @@ a:hover {
 }
 
 p {
-    text-shadow: black 1px 1px;
+    text-shadow: var(--black) 1px 1px;
     font-size: 1.6rem;
-    color: #fff;
+    color: var(--white);
     grid-row: 2 / 3;
     grid-column: 3 / 4;
     padding-left: 10px;
@@ -67,13 +74,13 @@ p {
 }
 
 #banner h1 {
-    background-color: rgb(78, 78, 78);
+    background-color: var(--gray);
     text-align: left;
     padding-left: 50px;
     padding-top: 10px;
     font-size: 5rem;
-    color: #fff;
-    text-shadow: #000 2px 2px;
+    color: var(--white);
+    text-shadow: var(--black) 2px 2px;
 }
 
 
@@ -85,19 +92,19 @@ p {
     grid-template-rows: repeat(4, 27vw);
     gap: 20px;
     padding-top: 20px;
-    background-color: rgb(78, 78, 78);
+    background-color: var(--gray);
     padding: 20px 20px;
     align-items: center;
 }
 
 .philosophy h2 {
-    color: #fff;
+    color: var(--white);
     text-align: center;
     font-size: 2rem;
 }
 
 .philosophy p {
-    color: #fff;
+    color: var(--white);
     text-align: center;
     text-shadow: none;
     padding-top: 50px;
@@ -216,53 +223,15 @@ p {
     grid-column: auto;
     border-radius: 5px;
     text-align: left;
-    background-color: rgb(78, 78, 78);
+    background-color: var(--gray);
 }
 
 footer {
-    background-color: rgb(78, 78, 78);
+    background-color: var(--gray);
 }
 
 footer p {
     text-align: center;
     font-size: 1.2rem;
     padding-bottom: 12px;
-}
-
-@media(max-width: 412px) {
-    .container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-    }
-    
-    .nav {
-        grid-column: 1/2;
-        padding-right: 20px;
-        text-align: left;
-        padding-top: 20px;
-    }
-    
-    ul {
-        list-style: none;
-        display: inline-flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        gap: 1em;
-    }
-
-    .title h1 {
-        display: center;
-        padding-top: 350px;
-    }
-    
-    #banner h1 {
-        display: none;
-    }
-    .philosophy {
-        display: none;
-    }
-    p {
-        display: none;
-    }
 }
