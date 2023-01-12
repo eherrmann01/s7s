@@ -1,13 +1,20 @@
 * 
 {
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "ubuntu", sans-serif;
 }
 
+:root {
+    --black: #000;
+    --white: #fff;
+    --red: #ff0000;
+    --gray: #4e4e4e;
+}
+
 body {
-    background-color: #000;
+    background-color: var(--gray);
 }
 
 nav {
@@ -25,15 +32,15 @@ ul {
 a {
     padding-top: 10px;
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
 }
 
 a:hover {
-    color: red;
+    color: var(--red);
 }
 
 .nav a #highlight {
-    color: red;
+    color: var(--red);
 }
 
 .container {
@@ -44,9 +51,9 @@ a:hover {
 .title h1 {
     /* display:flex; */
     flex-direction: column;
-    color: #fff;
+    color: var(--white);
     text-align: center;
-    text-shadow: black 2px 2px;
+    text-shadow: var(--black) 2px 2px;
     font-size: 5.5rem;
     font-weight: 100;
     padding: 0px;
@@ -54,21 +61,22 @@ a:hover {
 }
 
 p {
-    /* display: flex;
-    flex-direction: column; */
-    text-shadow: black 1px 1px;
+    display: flex;
+    flex-direction: column;
+    text-shadow: var(--black) 1px 1px;
     font-size: 1.0rem;
-    color: #fff;
-    margin-top: 150px;
+    color: var(--white);
+    margin-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
+    /* display: none; */
 }
 
 
 /* Gallery */
 
 .history h2 {
-    color: #fff;
+    color: var(--white);
     text-align: center;
     font-size: 2rem;
     grid-column: 3/4;
@@ -76,11 +84,20 @@ p {
 }   
 
 .history p {
-    color: #fff;
+    display: flex;
+    flex-direction: row;
+    color: var(--white);
     text-align: center;
     text-shadow: none;
-    /* padding-top: 50px; */
-    display: none;
+    margin-top: 10px;
+    /* display: none; */
+}
+
+#banner h1 {
+    color: var(--white);
+    text-shadow: var(--var(--black));
+    text-align: center;
+    padding-top: 10PX;
 }
 
 .gallery {
@@ -88,24 +105,20 @@ p {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 35vw);
     grid-auto-flow: dense;
+    margin-left: 10px;
+    margin-right: 10px;
     gap: 20px;
     padding-top: 20px;
-    background-color: rgb(78, 78, 78);
+    background-color: var(--gray);
     /* padding: 20px 20px; */
     align-items: center;
 }
 
 .history h2 {
-    color: #fff;
+    color: var(--white);
     text-align: center;
     font-size: 2rem;
-}
-
-.history p {
-    color: #fff;
-    text-align: center;
-    text-shadow: none;
-    padding-top: 50px;
+    display: none;
 }
 
 .gallery #img1 {
@@ -244,53 +257,14 @@ p {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.gallery p {
-    grid-row: auto;
-    grid-column: auto;
-    text-indent: 6%;
-    text-align: left;
-    background-color: rgb(78, 78, 78);
-}
-
 footer {
-    background-color: rgb(78, 78, 78);
+    background-color: var(--gray);
 }
 
 footer p {
     text-align: center;
     font-size: 1.2rem;
     padding-bottom: 12px;
-    color: #fff;
+    color: var(--white);
 }
 
-@media (max-width: 412px) {
-    .container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-    }
-    .nav {
-        display: float;
-        text-align: left;        
-    }
-    .title h1 {
-        display: center;
-        padding-top: 150px;
-    }
-    #banner h1 {
-        display: none;
-    }
-    .history {
-        display: none;
-    }
-    p {
-        display: none;
-    }
-}
-
-@media (max-width: 376px) {
-    .nav {
-        grid-column: 1/2;
-        text-align: center;
-    }
-}

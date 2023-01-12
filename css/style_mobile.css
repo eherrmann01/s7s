@@ -11,7 +11,6 @@
     --white: #fff;
     --red: #ff0000;
     --gray: #666;
-
 }
 
 body {
@@ -21,11 +20,9 @@ body {
 .container .content {
     background: url(../img/main_landing.png) no-repeat center center/cover;
     font-family: ubuntu, sans-serif;
-    /* display: grid; */
-    /* grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr; */
     height: 100vh;
 }
+
 .nav {
     width: 100%;
 }
@@ -36,6 +33,7 @@ ul {
     flex-direction: column;
     padding-left: 10px;
 }
+
 a {
     text-decoration: none;
     color: var(--white);
@@ -57,11 +55,11 @@ a:hover {
     margin: 0px;
     color: var(--white);
         text-shadow: var(--gray) 1px 1px;
-    }
+}
     
 h2 {
     color: var(--white);
-    text-shadow: #000 1px 1px;
+    text-shadow: var(--black) 1px 1px;
     text-align: right;
     margin-right: 2rem;
     font-size: 1rem;
@@ -83,6 +81,7 @@ h2 {
     color: var(--white);
     font-size: 2rem;
 }
+
 .history .p1 {
     color: var(--white);
 }

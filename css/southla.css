@@ -30,11 +30,11 @@ ul {
   a {
     padding-top: 0px;
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
 }
 
 .nav a #highlight {
-    color: red;
+    color: var(--red);
 }
 
 .container {
@@ -63,8 +63,8 @@ ul {
     padding-top: 10px;
     padding-left: 50px;
     font-size: 6rem;
-    color: #fff;
-    text-shadow: #000 2px 2px;
+    color: var(--white);
+    text-shadow: var(--black) 2px 2px;
 }
 
 /* Gallery */
@@ -82,14 +82,14 @@ ul {
 }
 
 .gallery h2 {
-    color:#fff; 
-    text-shadow: #000 2px 2px;
+    color:var(--white); 
+    text-shadow: var(--black) 2px 2px;
 }
 
 .container p {
-    text-shadow: #000 1px 1px;
+    text-shadow: var(--black) 1px 1px;
     font-size: 1.3rem;
-    color: #fff;
+    color: var(--white);
     grid-row: 5/6;
     grid-column: 1/2;
     text-indent: 6%;
@@ -241,7 +241,7 @@ ul {
     grid-column: auto;
     text-indent: 3%;
     text-align: left;
-    color: white;
+    color: var(--white);
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -249,19 +249,19 @@ ul {
 .history h2 {
     text-align: center;
     color: var( --white);
-    text-shadow: black 2px 2px;
+    text-shadow: var(--black) 2px 2px;
     font-size: 2rem;
-    
+    padding-top: 10px ;
 }
 
 footer {
-    background-color: rgb(78, 78, 78);
+    background-color: var(--gray);
 }
 
 footer p {
     text-align: center;
     font-size: 1.2rem;
     padding-bottom: 12px;
-    color: #fff;
+    color: var(--white);
 }
 

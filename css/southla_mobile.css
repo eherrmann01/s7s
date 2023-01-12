@@ -49,9 +49,9 @@ a:hover {
 }
 
 .title h1 {
-    color: #fff;
+    color: var(--white);
     text-align: left;
-    text-shadow: black 2px 2px;
+    text-shadow: var(--black) 2px 2px;
     padding-top: 55px;
     padding-left: 30px;
     font-size: 5rem;
@@ -60,13 +60,12 @@ a:hover {
 }
 
 #banner h1 {
-    background-color: rgb(78, 78, 78);
-    text-align: left;
+    background-color: var(--gray);
+    text-align: center;
     padding-top: 10px;
-    padding-left: 50px;
     font-size: 3rem;
-    color: #fff;
-    text-shadow: #000 2px 2px;
+    color: var(--white);
+    text-shadow: var(--black) 2px 2px;
 }
 
 .history h2 {
@@ -80,7 +79,7 @@ a:hover {
     background-color: var(--gray);
     display: flex;
     flex-direction:column ;
-    color: white;
+    color: var(--white);
     text-align: center;
 }
 /* Gallery */
@@ -92,20 +91,20 @@ a:hover {
     grid-auto-flow: dense;
     gap: 20px;
     padding-top: 20px;
-    background-color: rgb(78, 78, 78);
+    background-color: var(--gray);
     padding: 20px 20px;
     align-items: center;
 }
 
 .gallery h2 {
-    color:#fff; 
+    color: var(--white); 
     text-shadow: #000 2px 2px;
 }
 
 .container p {
     font-size: 1rem;
-    color: #fff;
-    text-shadow: #000 1px 1px;
+    color: var(--white);
+    text-shadow: var(--black) 1px 1px;
     /* grid-row: 5/6;
     grid-column: 1/2; */
     text-indent: 6%;
@@ -115,8 +114,8 @@ a:hover {
 #banner h1 {
     text-align: center;
     font-size: 3rem;
-    color: #fff;
-    text-shadow: #000 2px 2px;
+    color: var(--white);
+    text-shadow: var(--black) 2px 2px;
 }
 
 .gallery #img1 {
@@ -256,12 +255,12 @@ a:hover {
 }
 
 footer {
-    background-color: rgb(78, 78, 78);
+    background-color: var(--gray);
 }
 
 footer p {
     text-align: center;
     font-size: 1.2rem;
     padding-bottom: 12px;
-    color: #fff;
+    color: var(--white);
 }

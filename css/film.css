@@ -30,7 +30,7 @@ ul {
 a {
     padding-top: 10px;
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
 }
 
 a:hover {
@@ -100,13 +100,8 @@ a:hover {
     align-items: center;
 }
 
-.history h2 {
-    color: var(--white);
-    text-align: center;
-    font-size: 2rem;
-}
-
 .history p {
+    background-color: var(--gray);
     color: var(--white);
     text-align: center;
     text-shadow: none;
@@ -249,16 +244,8 @@ a:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.gallery p {
-    grid-row: auto;
-    grid-column: auto;
-    text-indent: 6%;
-    text-align: left;
-    background-color: rgb(78, 78, 78);
-}
-
 footer {
-    background-color: rgb(78, 78, 78);
+    background-color: var(--gray);
 }
 
 footer p {
@@ -268,34 +255,3 @@ footer p {
     color: var(--white);
 }
 
-@media (max-width: 412px) {
-    .container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-    }
-    .nav {
-        display: float;
-        text-align: left;        
-    }
-    .title h1 {
-        display: center;
-        padding-top: 150px;
-    }
-    #banner h1 {
-        display: none;
-    }
-    .history {
-        display: none;
-    }
-    p {
-        display: none;
-    }
-}
-
-@media (max-width: 376px) {
-    .nav {
-        grid-column: 1/2;
-        text-align: center;
-    }
-}
