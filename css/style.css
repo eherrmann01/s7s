@@ -87,6 +87,7 @@
         color: var(--red);
         font-style: italic;
     }
+    
     /* Page Two */
 
     .nav {
@@ -160,6 +161,7 @@
         font-family: "ubuntu", sans-serif;
         font-size: 1.2rem;
     }
+
     /* Contact Form */
     
     .txt {
@@ -186,6 +188,7 @@
         border-radius: 2px;
         background-color: rgb(201, 201, 201);
     }
+
     /* Back to Top nav */
     
     .top p {

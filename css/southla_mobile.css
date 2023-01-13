@@ -56,7 +56,6 @@ a:hover {
     padding-left: 30px;
     font-size: 5rem;
     font-weight: 100;
-
 }
 
 #banner h1 {
@@ -82,6 +81,7 @@ a:hover {
     color: var(--white);
     text-align: center;
 }
+
 /* Gallery */
 
 .gallery {
@@ -105,10 +105,7 @@ a:hover {
     font-size: 1rem;
     color: var(--white);
     text-shadow: var(--black) 1px 1px;
-    /* grid-row: 5/6;
-    grid-column: 1/2; */
     text-indent: 6%;
-    /* padding: 80px 10px 20px 10px; */
 }
 
 #banner h1 {

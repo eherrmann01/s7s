@@ -1,4 +1,5 @@
-* {
+*
+{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -56,7 +57,7 @@ a:hover {
 }
 
 .title h1 {
-    color: var(--black);
+    color: var(--white);
     text-align: center;
     text-shadow: var(--black) 2px 2px;
     padding-top: 25px;
@@ -84,7 +85,6 @@ a:hover {
     color: var(--white);
     text-shadow: var(--black) 2px 2px;
 }
-
 
 /* Gallery */
 
