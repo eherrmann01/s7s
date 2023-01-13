@@ -61,7 +61,7 @@ a:hover {
 }
 
 p {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     text-shadow: var(--black) 1px 1px;
     font-size: 1.0rem;
@@ -69,6 +69,7 @@ p {
     margin-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
+    display: none;
 }
 
 
