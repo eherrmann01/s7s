@@ -96,27 +96,18 @@ p {
     color: var(--white);
     text-shadow: var(--var(--black));
     text-align: center;
-    padding-top: 10PX;
 }
 
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 35vw);
+    grid-template-rows: repeat(4, 35vw);
     grid-auto-flow: dense;
     margin-left: 10px;
     margin-right: 10px;
-    gap: 20px;
-    padding-top: 20px;
+    gap: 10px;
     background-color: var(--gray);
     align-items: center;
-}
-
-.history h2 {
-    color: var(--white);
-    text-align: center;
-    font-size: 2rem;
-    display: none;
 }
 
 .gallery #img1 {
