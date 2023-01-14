@@ -68,7 +68,7 @@ a:hover {
 
 .container p {
     text-shadow: var(--black) 1px 1px;
-    font-size: 1.2rem;
+    font-size: 1vw;
     color: var(--white);
     grid-row: 2/3;
     grid-column: 1/2;
