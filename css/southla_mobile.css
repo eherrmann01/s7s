@@ -80,6 +80,7 @@ a:hover {
     flex-direction:column ;
     color: var(--white);
     text-align: center;
+    font-size: 2vw;
 }
 
 /* Gallery */
