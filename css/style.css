@@ -117,7 +117,7 @@
     
     .history {
         background: url(../img/fe.png) no-repeat center/cover;
-        background-color: var(--black)
+        background-color: var(--black);
         height: 100vh;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
