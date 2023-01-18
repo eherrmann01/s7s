@@ -105,6 +105,7 @@ p {
     grid-auto-flow: dense;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 20px;
     gap: 10px;
     background-color: var(--gray);
     align-items: center;
