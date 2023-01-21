@@ -12,6 +12,10 @@
         --red: #f00000;
     }
 
+    html::-webkit-scrollbar {
+        display: none;
+      }
+
     /* Page One */
     
     .container .content {
