@@ -45,7 +45,7 @@ a:hover {
 }
 
 .container {
-    background: url(../img/wildlife/s7s_wildlife-29.jpg) no-repeat center bottom/cover;
+    background: url(../img/wildlife/s7s_wildlife-6.jpg) no-repeat center bottom/cover;
     height: 100vh;
     width: 100vw;
     background-size: cover;
@@ -67,10 +67,15 @@ a:hover {
     text-shadow: var(--black) 1px 1px;
     font-size: 1.0rem;
     color: var(--white);
-    margin-top: 70px;
     padding-right: 10px;
     padding-left: 10px;
     text-align: center;
+}
+
+@media (min-width: 375px) {
+    .container p {
+        margin-top: 300px;
+    }    
 }
 
 #banner h1 {
