@@ -46,6 +46,10 @@ a:hover {
     color: var(--red);
 }
 
+body {
+    background-color: var(--gray);
+}
+
 .container {
     background: url(../img/cameras.jpg) no-repeat center bottom/cover;
     height: 100vh;
@@ -365,11 +369,19 @@ a:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+.back-to-top {
+    background-color: var(--gray);
+    color: var(--red);
+    padding-left: 20px;
+}
+
 footer {
     background-color: var(--gray);
 }
 
 footer p {
+    background-color: var(--gray);
     text-align: center;
     font-size: 1.2rem;
     padding-bottom: 12px;

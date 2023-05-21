@@ -41,6 +41,10 @@ ul {
     color: var(--red);
 }
 
+body {
+    background-color: var(--gray);
+}
+
 .container {
     background: url(../img/southla/southlabr33.jpg) no-repeat center center/cover;
     height: 100vh;
@@ -265,6 +269,12 @@ ul {
     text-shadow: var(--black) 2px 2px;
     font-size: 2rem;
     padding-top: 10px ;
+}
+
+.back-to-top {
+    color: var(--red);
+    padding-left: 20px;
+
 }
 
 footer {

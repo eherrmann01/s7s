@@ -46,6 +46,10 @@ a:hover {
     color: var(--red);
 }
 
+body {
+    background-color: var(--gray);
+}
+
 .container {
     background: url(../img/Random/random8.jpg) no-repeat center bottom/cover;
     height: 100vh;
@@ -66,7 +70,7 @@ a:hover {
     font-weight: 100;
 }
 
-p {
+.container p {
     text-shadow: var(--black) 1px 1px;
     font-size: 1vw;
     color: var(--white);
@@ -74,7 +78,7 @@ p {
     grid-column: 3 / 4;
     padding-left: 10px;
     padding-right: 50px;
-    padding-top: 325px;
+    padding-top: 650px;
     padding-bottom: 50px;
 }
 
@@ -367,11 +371,18 @@ p {
     background-color: var(--gray);
 }
 
+.back-to-top {
+    color: var(--red);
+    padding-left: 20px;
+
+}
+
 footer {
     background-color: var(--gray);
 }
 
 footer p {
+    color: var(--white);
     text-align: center;
     font-size: 1.2rem;
     padding-bottom: 12px;

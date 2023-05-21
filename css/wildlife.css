@@ -46,6 +46,10 @@ a:hover {
     color: var(--red);
 }
 
+body {
+    background-color: var(--gray);
+}
+
 .container {
     background: url(../img/wildlife/s7s_wildlife-29.jpg) no-repeat center bottom/cover;
     height: 100vh;
@@ -372,6 +376,10 @@ p {
     border-radius: 5px;
     text-align: left;
     background-color: var(--gray);
+}
+
+.back-to-top {
+    color: var(--red);
 }
 
 footer {
