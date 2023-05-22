@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio7south | Film</title>
-    <link rel="stylesheet" type="text/css" href="css/film.css" media="(min-width: 1025px)"/>
+    <link rel="stylesheet" type="text/css" href="css/film.css" media="(min-width: 1025px)" />
     <link rel="stylesheet" type="text/css" media="(max-width: 1025px)" href="css/film_mobile.css" />
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -13,16 +13,24 @@
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
     </style>
+    <script>
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+    </script>
 </head>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-K06S326QVR"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-K06S326QVR');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-K06S326QVR');
 </script>
 
 <body>
@@ -118,7 +126,7 @@
 
         <a href="../img/Film/New_Website_Film_25.jpg" data-lightbox="images" data-title="201 Range Ave">
             <img src="../img/Film/New_Website_Film_25.jpg" alt="" id="img20" /></a>
-            
+
         <a href="../img/Film/New_Website_Film_(8).jpg" data-lightbox="images" data-title="Repose">
             <img src="../img/Film/New_Website_Film_(8).jpg" alt="" id="img21" /></a>
 

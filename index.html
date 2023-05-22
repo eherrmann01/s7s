@@ -5,22 +5,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio7south | Welcome</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="(min-width: 1025px)"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="(min-width: 1025px)" />
     <link rel="stylesheet" type="text/css" media="(max-width: 1025px)" href="css/style_mobile.css" />
     <link rel="stylesheet" href="css/lightbox.min.css" />
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
     </style>
+
+    <script>
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+    </script>
 </head>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-K06S326QVR"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-K06S326QVR');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-K06S326QVR');
 </script>
 
 <body>
@@ -77,9 +86,9 @@
         </form> -->
     </div>
 </body>
-    <a href="#" class="back-to-top">Back</a>
-    <footer>
-        <p>Copyright &#169; 2023 - Erik D. Herrmann Sr. &nbsp Studio7south, all rights reserved.&nbsp Email: <a href="mailto:erik@studio7south.com"><span class="text-light">erik@studio7south.com</span></a></p>
-    </footer>
+<a href="#" class="back-to-top">Back</a>
+<footer>
+    <p>Copyright &#169; 2023 - Erik D. Herrmann Sr. &nbsp Studio7south, all rights reserved.&nbsp Email: <a href="mailto:erik@studio7south.com"><span class="text-light">erik@studio7south.com</span></a></p>
+</footer>
 
 </html>
