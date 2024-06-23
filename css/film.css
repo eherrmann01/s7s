@@ -141,3 +141,25 @@ footer p {
     padding-bottom: 12px;
     color: var(--white);
 }
+
+/* Media Query for smaller screens
+@media screen and (max-width: 768px) {
+    .nav {
+        grid-column: 1/-1;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .title h1 {
+        padding-left: 20px;
+    }
+
+    .container p {
+        font-size: 1.5vw;
+    }
+
+    #banner h1 {
+        padding-left: 20px;
+        font-size: 4rem;
+    }
+} */
