@@ -98,8 +98,8 @@ p {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 27vw);
-    gap: 20px;
-    padding-top: 120px;
+    gap: 30px;
+    padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     background-color: var(--gray);
