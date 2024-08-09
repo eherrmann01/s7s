@@ -45,6 +45,9 @@ a:hover {
 .container {
     background: url(../img/cameras.jpg) no-repeat center bottom/cover;
     height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
 }
 
 .title h1 {
@@ -119,6 +122,13 @@ p {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.back-to-top {
+    background-color: var(--gray);
+    color: var(--red);
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
 footer {
     background-color: var(--gray);
 }
@@ -126,6 +136,7 @@ footer {
 footer p {
     text-align: center;
     font-size: 1.2rem;
+    padding-top: 10px;
     padding-bottom: 12px;
     color: var(--white);
 }

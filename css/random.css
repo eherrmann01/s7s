@@ -105,13 +105,13 @@ body {
     align-items: center;
 }
 
-.philosophy h2 {
+.gallery_text h2 {
     color: var(--white);
     text-align: center;
     font-size: 2rem;
 }
 
-.philosophy p {
+.gallery_text p {
     color: var(--white);
     text-align: center;
     text-shadow: none;

@@ -87,7 +87,7 @@ a:hover {
     text-shadow: var(--black) 2px 2px;
 }
 
-.philosophy {
+.gallery_text {
     display: none;
     color: var(--white);
     text-shadow: var(--black) 2px 2px;
@@ -122,6 +122,13 @@ a:hover {
     background-color: var(--gray);
 }
 
+.back-to-top {
+    background-color: var(--gray);
+    color: var(--red);
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
 footer {
     background-color: var(--gray);
 }
@@ -129,6 +136,7 @@ footer {
 footer p {
     text-align: center;
     font-size: 1.2rem;
+    padding-top: 10px;
     padding-bottom: 12px;
     color: var(--white);
 }

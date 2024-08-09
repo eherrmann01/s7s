@@ -95,8 +95,16 @@ h2 {
     margin-left: 10px;
     margin-right: 10px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
-    
+
+.back-to-top {
+    background-color: var(--black);
+    color: var(--red);
+    padding-left: 20px;
+    border-top: 50px;
+ }
+
 footer p {
     text-align: center;
     font-size: 1.2rem;  
