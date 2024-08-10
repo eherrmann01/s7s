@@ -62,7 +62,7 @@ body {
     grid-row: 1/2;
     color: var(--white);
     text-align: left;
-    text-shadow: var(--black) 2px 2px;
+    text-shadow: var(--black) 3px 3px;
     padding-bottom: 600px;
     padding-left: 100px;
     font-size: 6.5rem;
