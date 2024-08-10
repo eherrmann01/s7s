@@ -141,6 +141,7 @@ p {
     border-radius: 5px;
     text-align: left;
     background-color: var(--gray);
+    padding-bottom: 12px;
 }
 
 .back-to-top {
@@ -150,6 +151,7 @@ p {
 
 footer {
     background-color: var(--gray);
+     padding-bottom: 12px;
 }
 
 footer p {
