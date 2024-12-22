@@ -1,134 +1,138 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "ubuntu", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "ubuntu", sans-serif;
 }
 
 :root {
-    --black: #000;
-    --white: #fff;
-    --red: #ff0000;
-    --gray: #4e4e4e;
+  --black: #000;
+  --white: #fff;
+  --red: #ff0000;
+  --gray: #4e4e4e;
 }
 
 body {
-    background-color: var(--gray);
+  background-color: var(--gray);
 }
 
 nav {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 ul {
-    list-style: none;
-    text-align: left;
-    padding-top: 10px;
-    padding-left: 10px;
+  list-style: none;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 a {
-    padding-top: 10px;
-    text-decoration: none;
-    color: var(--white);
+  padding-top: 10px;
+  text-decoration: none;
+  color: var(--white);
 }
 
 a:hover {
-    color: var(--red);
+  color: var(--red);
 }
 
 .nav a #highlight {
-    color: var(--red);
+  color: var(--red);
 }
 
 .container {
-    background: url(../img/wildlife/s7s_wildlife-6.jpg) no-repeat center bottom/cover;
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    background-position: center;
+  background: url(../img/wildlife/s7s_wildlife-6.jpg) no-repeat center
+    bottom/cover;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
 }
 
 .title h1 {
-    color: var(--white);
-    text-align: center;
-    text-shadow: var(--black) 2px 2px;
-    /* padding-top: 15px; */
-    padding-right: 10px;
-    padding-bottom: 0px;
-    font-size: 5.5rem;
-    font-weight: 100;
+  color: var(--white);
+  text-align: center;
+  text-shadow: var(--black) 2px 2px;
+  /* padding-top: 15px; */
+  padding-right: 10px;
+  padding-bottom: 0px;
+  font-size: 5.5rem;
+  font-weight: 100;
 }
 
 .container p {
-    text-shadow: var(--black) 1px 1px;
-    font-size: 1.0rem;
-    color: var(--white);
-    padding-right: 10px;
-    padding-left: 10px;
-    text-align: center;
+  text-shadow: var(--black) 1px 1px;
+  font-size: 1rem;
+  color: var(--white);
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
 }
 
 @media (min-width: 375px) {
-    .container p {
-        margin-top: 300px;
-    }
+  .container p {
+    margin-top: 200px;
+  }
 }
 
 #banner h1 {
-    background-color: var(--gray);
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    font-size: 3rem;
-    color: var(--white);
-    text-shadow: var(--black) 2px 2px;
+  background-color: var(--gray);
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  font-size: 3rem;
+  color: var(--white);
+  text-shadow: var(--black) 2px 2px;
 }
 
-.philosophy {
-    display: none;
-    color: var(--white);
-    text-shadow: var(--black) 2px 2px;
+.InnerParagraph {
+  display: none;
+  color: var(--white);
+  text-shadow: var(--black) 2px 2px;
 }
 
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 27vw);
-    gap: 20px;
-    padding-top: 20px;
-    background-color: var(--gray);
-    padding: 20px 20px;
-    align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 27vw);
+  gap: 20px;
+  padding-top: 20px;
+  background-color: var(--gray);
+  padding: 20px 20px;
+  align-items: center;
 }
 
 .gallery #img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    grid-row: auto;
-    grid-column: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  grid-row: auto;
+  grid-column: auto;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 1.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .gallery p {
-    display: none;
-    grid-row: auto;
-    grid-column: auto;
-    border-radius: 5px;
-    text-align: left;
-    background-color: var(--gray);
+  display: none;
+  grid-row: auto;
+  grid-column: auto;
+  border-radius: 5px;
+  text-align: left;
+  background-color: var(--gray);
 }
 
 footer {
-    background-color: var(--gray);
+  background-color: var(--gray);
 }
 
 footer p {
-    text-align: center;
-    font-size: 1.2rem;
-    padding-bottom: 12px;
-    color: var(--white);
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: 12px;
+  color: var(--white);
 }
+
