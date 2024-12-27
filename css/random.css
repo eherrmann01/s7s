@@ -50,7 +50,7 @@ body {
 }
 
 .container {
-  background: url(../img/Random/random8.jpg) no-repeat center bottom/cover;
+  background: url(../img/Random/random64.jpg) no-repeat center bottom/cover;
   height: 100vh;
   display: inline-grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -163,4 +163,3 @@ footer p {
   font-size: 1.2rem;
   padding-bottom: 12px;
 }
-

@@ -125,6 +125,12 @@ a:hover {
   background-color: var(--gray);
 }
 
+.back-to-top {
+  color: var(--red);
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
 footer {
   background-color: var(--gray);
 }
@@ -135,4 +141,3 @@ footer p {
   padding-bottom: 12px;
   color: var(--white);
 }
-
