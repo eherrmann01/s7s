@@ -99,13 +99,11 @@ p {
 .gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 35vw);
-  grid-auto-flow: dense;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 20px;
-  gap: 10px;
+  grid-template-rows: repeat(4, 27vw);
+  gap: 20px;
+  padding-top: 20px;
   background-color: var(--gray);
+  padding: 20px 20px;
   align-items: center;
 }
 
@@ -126,13 +124,10 @@ p {
   padding-bottom: 10px;
 }
 
-footer {
-  background-color: var(--gray);
-}
-
 footer p {
+  background-color: var(--gray);
   text-align: center;
   font-size: 1.2rem;
-  padding-bottom: 12;
+  padding-bottom: 12px;
   color: var(--white);
 }

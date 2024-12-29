@@ -150,14 +150,9 @@ p {
   padding-left: 10px;
 }
 
-footer {
-  background-color: var(--gray);
-}
-
 footer p {
   text-align: center;
   font-size: 1.2rem;
   padding-top: 25px;
   padding-bottom: 12px;
 }
-

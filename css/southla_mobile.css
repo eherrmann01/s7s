@@ -132,10 +132,6 @@ a:hover {
   padding-bottom: 10px;
 }
 
-footer {
-  background-color: var(--gray);
-}
-
 footer p {
   text-align: center;
   font-size: 1.2rem;

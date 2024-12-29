@@ -142,14 +142,9 @@ body {
   padding-left: 20px;
 }
 
-footer {
-  background-color: var(--gray);
-}
-
 footer p {
   text-align: center;
   font-size: 1.2rem;
   padding-bottom: 12px;
   color: var(--white);
 }
-
